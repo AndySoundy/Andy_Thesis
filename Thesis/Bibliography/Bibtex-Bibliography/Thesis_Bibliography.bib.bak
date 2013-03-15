@@ -1,0 +1,514 @@
+% This file was created with JabRef 2.9.2.
+% Encoding: Cp1252
+
+@STRING{con = {Current Opinion in Neurobiology}}
+
+@STRING{jb = {Journal of Biophysics}}
+
+@STRING{jeb = {The Journal of Experimental Biology}}
+
+@STRING{jtb = {Journal of Theoretical Biology}}
+
+@STRING{mb = {Marine Biology}}
+
+@STRING{nrn = {Nature Reviews Neuroscience}}
+
+@ARTICLE{,
+  author = {Ad. J. Kalmijn,},
+  title = {Electric and Magnetic Field Detection in Elasmobranch Fishes},
+  journal = {Science},
+  year = {1982},
+  volume = {218},
+  pages = {916-918},
+  number = {4575},
+  month = {November},
+  note = {IMPORTANCE: 3.5*. An early work on the electric and magnetic sensitivites
+	of elasmobranches. Found that blue sharks and dogfish would preferentially
+	attack an artifical dipole that was hidden, even when placed next
+	to a piece of food which suggests that for short-range feeding behaviour
+	the electric sense is more important than even smell. Measured the
+	response rate as 5nV/cm but this was a conservative estimate as it
+	assumed that the shark was alligned directly with the dipole moment
+	created by the electrodes of the experiment. A short article that
+	mostly focuses on the responses to electric fields it does mention
+	magnetic field responses however it is only briefly and concludes
+	simply that the rays used in the experiment could detect the magnetic
+	field but remains unsure whether the rays were directly detecting
+	the magnetic field or the induced voltage by swimming near the magnetic
+	field.},
+  owner = {souan326},
+  timestamp = {2013.03.08},
+  url = {http://www.jstor.org/sici?sici=0036-8075%2819821126%293%3A218%3A4575%3C916%3AEAMFDI%3E2.0.CO%3B2-J}
+}
+
+@ARTICLE{,
+  author = {Ad. J. Kalmijn, Ivan Fernando Gonzalez, Michael C. McClune},
+  title = {The physical nature of life},
+  journal = {Journal of Physiology Paris},
+  year = {2002},
+  volume = {96},
+  pages = {355-362},
+  note = {IMPORTANCE: 1.5*. Probably the most flowery, roundabout abstract
+	and introduction I've read so far. Only references Einstein, Faraday,
+	Galileo, Mach, Newton, Maxwell and himself (eight times). He does
+	do a multipole expansion on the dc fields produced by prey but seems
+	to think that applying special relativity is necessary for the speeds
+	that we are concerned with(?).},
+  owner = {souan326},
+  timestamp = {2013.03.08},
+  url = {http://mesonpi.cat.cbpf.br/e2006/graduacao/pdf_g2/KalmijnPeixeEletrico1.pdf}
+}
+
+@ARTICLE{,
+  author = {Adriana Migliaro, Angel A. Caputi and Ruben Budelli},
+  title = {Theoretical Analysis of Pre-Receptor Image Conditioning in Weakly
+	Electric Fish},
+  journal = {PLoS Computational Biology},
+  year = {2005},
+  volume = {1},
+  month = {July},
+  note = {IMPORTANCE: 2*. While there is some impressive computational models
+	for electrical reception by electrically sensitive fishes the article
+	concerns itself with weakly electric fishes, that is fish with an
+	electric organ and the detection of that self-generated field and
+	how that field is affected by skin conductivity as well as the prescence
+	of foreign objects, namely a metal cube.},
+  owner = {souan326},
+  timestamp = {2013.03.08},
+  url = {http://www.ploscompbiol.org/article/info:doi/10.1371/journal.pcbi.0010016}
+}
+
+@ARTICLE{,
+  author = {Jeanine M. Donley and Robert E. Shadwick},
+  title = {Steady swimming muscle dynamics in the leopard shark Triakis semifasciata},
+  journal = {Journal of Experimental Biology},
+  year = {2003},
+  volume = {206},
+  pages = {1117-1126},
+  note = {IMPORTANCE: 4*. While much of the article concerns itself with the
+	muscular strain there is a reasonable amount on the experimentally
+	retrieved swimming kinematics for slow swimming of the leopard shark.
+	While the leopard shark was determined to be somewhat between an
+	anguilliform and a carangiform while larger, faster sharks tend to
+	be carangiforms or thunniforms the data retrieved seems useful and
+	the article is very comprehensible. Also mentions that white muscle
+	in sharks and teleost fishes is primarily used for short bursts of
+	speed while slow swimming is primarily attributed to the groups of
+	red muscle tissue.},
+  owner = {souan326},
+  timestamp = {2013.03.07},
+  url = {http://jeb.biologists.org/content/206/7/1117.full.pdf+html}
+}
+
+@ARTICLE{Johnsen:2008,
+  author = {Sonke Johnsen and Kenneth J. Lohmann},
+  title = {Magnetoreception in animals},
+  journal = {Physics Today},
+  year = {2008},
+  volume = {61},
+  pages = {29-35},
+  number = {3},
+  month = {March},
+  note = {IMPORTANCE: 2*. Short summary on magnetoreception in animals. An
+	easy read with some nice diagrams it briefly goes into magnetoreception
+	via induction but concludes that there is not enough evidence for
+	a solid conclusion, points to the work of Walker:2001 where like
+	Hodson:2000 magnets inserted in the nasal cavity disrupt a stingray's
+	ability to detect magnetic fields. See Molteno:2009 for a counter-argument.},
+  url = {http://www.physicstoday.org/resource/1/phtoad/v61/i3/p29_s1}
+}
+
+@ARTICLE{Johnsen:2005,
+  author = {Sonke Johnsen and Kenneth J. Lohmann},
+  title = {The Physics and Neurobiology of Magnetoreception},
+  journal = {Nature Reviews Neuroscience},
+  year = {2005},
+  volume = {6},
+  pages = {703-712},
+  note = {IMPORTANCE: 3*. Goes into the difficulties involved with locating
+	the magnetoreceptors in animals, namely, magnetic fields pass through
+	normal tissue easily and so the detectors need not be on the surface,
+	the detectors may be very small or dispersed throughout the body
+	with no centralised detector and that there is no human analogue
+	to magnetoreception which we could base our theories on. Goes into
+	induction-based magnetoreception and quotes Paulin:1995. However
+	uses the work of Walker:2003, Kirschvink:2001 to say that the magnet
+	placed in the nasal cavity of the ray shouldn't have effected induction-based
+	magnetoreception. Goes into the other two competing theories of magnetoreception
+	as well, i.e. ferri-magnetic crystals and optically-pumped radical
+	pairs.},
+  notes = {IMPORTANCE: 3.5*. Goes into the three main theories for magnetoreception
+	i.e. induction, ferrimagnetic crystals and optical pumping. Like
+	Walker:2002 this article proposes that magnetically sensitive animals
+	could obtain positional information by the inclination angle of the
+	field and local vairations within the general field. Concludes there
+	isn't enough evidence to decide on the merits of induction-based
+	navigation but adds that it would be highly impractical for any land-based
+	animal to empoly such a tool given the resistivity of air.},
+  url = {http://biology.duke.edu/johnsenlab/pdfs/pubs/nrn%20review.pdf}
+}
+
+@ARTICLE{Kajiura:2002,
+  author = {Stephen M. Kajiura and Kim N. Holland},
+  title = {Electroreception in juvenile scalloped hammerhead and sandbar sharks},
+  journal = {Journal of Experimental Biology},
+  year = {2002},
+  volume = {205},
+  pages = {3609-3621},
+  note = {IMPORTANCE: 5*. Compares the responses of juvenile scalloped hammerheads
+	and sandbar sharks to electric dipoles. Recorded behavioural responses
+	for dipole, median was around 25-30nVcm-1 but recorded a bottom threshold
+	of 0.4nVcm-1 in the hammerhead and 0.5nVcm-1 in the sandbar sharks,
+	almost a factor of 10 smaller than previous threshold measurements.
+	Was looking to confirm that the head of the hammerhead was partially
+	evolved to enable the shark to have greater electrosensory abilities
+	than other sharks, this hypothesis was not confirmed in the data
+	gathered.},
+  url = {http://jeb.biologists.org/content/205/23/3609.long}
+}
+
+@ARTICLE{Kirschvink:2001,
+  author = {Joseph L. Kirschvink and Michael M. Walker and Carol E. Diebel},
+  title = {Magnetite-based magnetoreception},
+  journal = {Current Opinion in Neurobiology},
+  year = {2001},
+  volume = {11},
+  pages = {462-467},
+  note = {IMPORTANCE: 2.5*. As the title suggests this mostly concerns itself
+	with magnetoreception via ferrimagnetic crystals however in that
+	area it is concise and informative, covering the evolution of magnetite
+	crystals in micro-organisms to current magnetite-based navigating
+	animals and the neurobiology involved in that mechanism. Again points
+	to Walker:2001 as an argument agains induction-based navigation in
+	elasmobranches.},
+  url = {http://www.dvgu.ru/meteo/library/55912339.pdf}
+}
+
+@ARTICLE{Klimley:1993,
+  author = {A. P. Klimley},
+  title = {Highly directional swimming by scalloped hammerhead sharks, Sphyrna
+	lewini, and subsurface irradiance, temperature, bathymetry, and geomagnetic
+	field},
+  journal = {Marine Biology},
+  year = {1993},
+  volume = {117},
+  pages = {1-22},
+  note = {IMPORTANCE: 5*. An excellent paper, the author tagged four scalloped
+	hammerheads off Las Animas Island in the Sea of Cortez. Highly directional
+	swimming was recorded when the sharks ventured out at night to hunt.
+	The author correlated their movements to possible variations in temperature,
+	current, ground topography (which the animals were unable to see
+	from the depths they were swimming at), light levels (to determine
+	whether the animals could have been navigating by star/moonlight)
+	and variations in the earths magnetic field. No correlations were
+	found for any of the values that could explain the sharks swimming
+	very similar geographic routes except for using variations in the
+	earths magnetic field. Less than a 50nT rise or fall between successive
+	maxima or minima in the magnetic field but it appears that the sharks
+	swam along the boundary between magnetic slope and plateau as well
+	as in valleys or along ridges. In several instances the sharks encountered
+	a "wall" of steep geomagnetic increases whereupon the animals reversed
+	direction and swam back the way they had come. A graph is provided
+	in the article (Fig. 11) that shows that the sharks was actively
+	swimming at a depth that gave it the greatest geomagnetic intensity
+	gradient, almost three times the gradient at the surface. In conclusion
+	proposed that perhaps the shark compared readings from ampullae across
+	the body to determine the magnetic field gradient.},
+  url = {http://link.springer.com/article/10.1007%2FBF00346421?LI=true}
+}
+
+@ARTICLE{,
+  author = {Christopher G. Lowe},
+  title = {Kinematics and critical swimming speed of juvenile scalloped hammerhead
+	sharks},
+  journal = {Journal of Experimental Biology},
+  year = {1996},
+  volume = {199},
+  pages = {2605-2610},
+  note = {IMPORTANCE: 2*. Does analyse the swimming kinematics of the scalloped
+	hammerhead which is studied extensively in the area of magneto-reception
+	etc it largely concerns itself with the differences between swimming
+	in a flume and swimming in a large pond. In general it found that
+	stride length increased linearly with increases in swimming speed.},
+  owner = {souan326},
+  timestamp = {2013.03.07},
+  url = {http://jeb.biologists.org/content/199/12/2605.full.pdf}
+}
+
+@ARTICLE{,
+  author = {Marcelo Camperi, Timothy C. Tricas and Brandon E. Brown},
+  title = {From Morphology to Neural Information: The Electric Sense of the
+	Skate},
+  journal = {PLoS Computational Biology},
+  year = {2007},
+  volume = {3},
+  month = {June},
+  note = {IMPORTANCE: 4.5*. An excellent modelling paper on the electric sense
+	of skates. While the paper concerned itself with the use of the electric
+	sense for prey detection and not navigation it is highly likely that
+	many of the methods and implementation could be borrowed to create
+	a realistic model of the electric sense in sharks and then use that
+	to test the response of neurons to the shark moving in the earth's
+	magnetic field. They took good account of the electrical properties
+	of the canals and took into account voltage drop between the pore
+	and the ampulla itself as well as the effect of the capacitance of
+	the canals. If you're attempting to create a full model of the shark's
+	electric sense re-read this article!},
+  owner = {souan326},
+  timestamp = {2013.03.08},
+  url = {http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.0030113}
+}
+
+@ARTICLE{Molteno:2009,
+  author = {T. C. A. Molteno and W. L. Kennedy},
+  title = {Navigation by Induction-Based Magnetoreception in Elasmobranch Fishes},
+  journal = {Journal of Biophysics},
+  year = {2009},
+  volume = {2009},
+  note = {IMPORTANCE: 5*+. Tim's latest paper on shark navigation. Quantitatively
+	addresses the electric fields that the shark should experience while
+	it swims through the earth's magnetic field. Proposes that the shark
+	uses a ration of electric field amplitudes at different frequencies
+	to determine it's compass heading which should be independent of
+	swimming speed and the strength of the magnetic field. This ratio
+	is dependent on the swimming modulation amplitude (a) but for values
+	of a less than 1 the ratio is only weakly dependent on a. Both the
+	electrical amplitudes involved should be detectable by the ampullae
+	based on the thresholds determined in Kajiura:2002 as well as others.
+	While a linear model of the neural response would be unable to account
+	for drift we see from studies such as Montgomery:1999 that the neural
+	response is indeed non-linear. Also addresses the work of Hodson:2000
+	and others where magnets inserted in the nasal cavity of the short-tailed
+	stingray would interrupt an induction-based navigation sense unless
+	the fish was kept rigid to an accuracy of ~100um. Possible work on
+	the theory involves further investigation of the non-linear response
+	theory and more complex analysis of migration-style swimming kinematics.},
+  url = {http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2814134/}
+}
+
+@ARTICLE{Montgomery:1999,
+  author = {J. C. Montgomery and D. Boznick},
+  title = {Signals and Noise in the Elasmobranch Electrosensory System},
+  journal = {Journal of Experimental Biology},
+  year = {1999},
+  volume = {202},
+  pages = {1349-1355},
+  note = {IMPORTANCE: 4*. Primarily concerns itself with the neurology of how
+	elasmobranchs detect and filter electric fields. Mentions that the
+	bandwidth of the receptors is around 0.1-10 Hz. Includes some useful
+	diagrams on the location of canal distribution over the bodies of
+	skates and rays which could be useful if the reader were interested
+	in looking into how a magnet placed at the nose of a ray would induce
+	electric fields in regions further from the head. Also included is
+	a graph plotting relative gain across the bandwidth of a ray. As
+	well as that there is a good amount on the ratio of signal:noise
+	picked up and the author concludes that along with the structure
+	of the receptor itself there is considerable processing involved
+	in the resolution of signals.},
+  url = {http://jeb.biologists.org/content/202/10/1349.full.pdf}
+}
+
+@INBOOK{,
+  chapter = {4},
+  pages = {125-144},
+  title = {Handbook of Sensory Physiology},
+  publisher = {Springer Verlag},
+  year = {1974},
+  editor = {A. Fernard},
+  author = {Richard W. Murray},
+  volume = {3},
+  note = {IMPORTANCE: 5*. A good summary on the structure and response of the
+	ampullae of Lorenzini. Apparently there are ~ as many nerves dedicated
+	to the ampullae of Lorenzini as there are to the eyes or ears which
+	suggests a highly specialised sense. Contains good schematic details
+	(typical sizes, resistivity etc) of the canals themselves. There
+	is evidence that ampullae can detect small changes in salinity of
+	seawater (32-33%), possibly due to the effect of raising/lowering
+	the electrical properties at the pore interface. Also cites evidence
+	that a massive field ~ 100uVm-1 and higher produce less response
+	than lower fields and even produce reversed responses. Longer canals
+	are in general more sensitive than shorter ones but due to the capacity
+	of the canals there is a loss of higher frequencies in longer canals.
+	Hyoid canals are the longest group of ampullae.},
+  owner = {souan326},
+  timestamp = {2013.03.04}
+}
+
+@ARTICLE{Paulin:1995,
+  author = {Michael G. Paulin},
+  title = {Electroreception and the Compass Sense of Sharks},
+  journal = {Journal of Theoretical Biology},
+  year = {1995},
+  volume = {174},
+  pages = {325-339},
+  note = {IMPORTANCE: 5*+. Mike Paulin's first article on shark navigation,
+	obviously this is super important and by this time you probably have
+	it memorized but here we go. He goes into the then current work in
+	the field by Kalmijn and Klimley. He investigates Kalmijn's ideas
+	of pasive and active navigation but points towards the problems of
+	sharks being unable to detect dc signals and of the issues involved
+	in Kalmijn's passive navigation wherein it would seem Kalmijn proposes
+	that the shark swims out of any moving water and then uses that stationary
+	water as a guide as to where it should head as it swims back into
+	the current. Paulin points also to the issue of naturally occurring
+	electric fields in the order of hundreds of microvolts due to the
+	movement of the water and the ions within and then points to the
+	dc filter and says that for the time-period that the ampullae of
+	the shark cover the fields in the water are considered dc and so
+	not picked up by the animals. For a short time he goes into the idea
+	of electrical lensing that would occur around the resistive body
+	of the shark in the conducting medium of the sea and then points
+	to that increasing the voltages across an ampullae in the shark rather
+	than some lone ampullae and so increasing the animal's sensitivity.
+	Goes extensively into the idea of wave-analysis as a way for the
+	shark to determine its heading especially working out the differences
+	in frequency and amplitude involved in heading north-south compared
+	to east-west. By comparing the inputs from the electrosense and the
+	vestibular sense the shark could determine a heading direction undettered
+	by current drift. He backs up his claim of waveform analysis by pointing
+	out that 19% of vestibulo-cerebellar cells in dogfish respond at
+	twice the head oscillation frequency. Finally he points to the hyoid
+	group of ampullae as a possible base for navigation citing migratory
+	species that have hyoid ampullae only and eat plankton and carnivorour
+	species that are non-migratory and have other ampullae but not hyoid
+	ampullae.},
+  url = {http://www.sciencedirect.com/science/article/pii/S0022519385701026#}
+}
+
+@ARTICLE{Videler:1984,
+  author = {J. J. Videler and F. Hess},
+  title = {Fast Continuous Swimming of  two Pelagic Predators Saithe (Pollachius
+	Virens) and Mackrel (Scomber Scombrus): A Kinematic Analysis},
+  journal = {Journal of Experimental Biology},
+  year = {1984},
+  volume = {109},
+  pages = {209-228},
+  notes = {IMPORTANCE: 3*. While neither fish analysed were elasmobranches and
+	the swimming styles concerned were not slow migratory style but fast
+	continuous swimming the article contains several potentially useful
+	elements and also goes into an efficiency analysis though whether
+	this will be relevant to the thesis remains to be seen. The analysis
+	only concerned itself with straight, fast, continuous swimming styles
+	and made the useful move to use dimensionless units using the fishes
+	length as a unit of measurement and the time period of one tail movement
+	to be the unit of time. During steady swimming it was found that
+	the pectoral and pelvic fins pressed against the body and the anterior
+	parts of the dorsal and anal fins collapsed. Found a general equation,
+	as one might expect, was of the form f(t) = a0 + b0t - a1*cos(2*pi*t/T)
+	+ b1*sin(2*pi*t/T).},
+  url = {http://jeb.biologists.org/content/109/1/209.full.pdf}
+}
+
+@ARTICLE{Walker:2002,
+  author = {Michael M. Walker and Todd E. Dennis and Joseph L. Kirschvink},
+  title = {The magnetic sense and its use in long-distance navigation by animals},
+  journal = {Current Opinion in Neurobiology},
+  year = {2002},
+  volume = {12},
+  pages = {735-744},
+  notes = {IMPORTANCE: 3*. Like Kirschvink:2001 this article mainly concerns
+	itself with magnetite-based navigation however it contains very useful
+	information of magnetic field gradients and the composition of the
+	geomagnetic field in the ocean, specifically very detailed magnetic
+	gradient graphs of both the Atlantic and Pacific oceans as well as
+	migratory patterns of whales, loggerhead tutrtles and others. Proposes
+	that animals use horizontal field direction for a compass sense and
+	the inclination coMarine Biologyined with local field variations
+	to determine position.},
+  url = {http://www.gps.caltech.edu/~jkirschvink/pdfs/COINBWalker.pdf}
+}
+
+@INBOOK{Walker:2003,
+  chapter = {3},
+  pages = {53-74},
+  title = {Detection and Use of the Earth's Magnetic Field by Aquatic Vertebrates},
+  publisher = {Springer-Verlag},
+  year = {2003},
+  author = {Michael M. Walker and Carol E. Diebel and Joseph L. Kirschvink},
+  note = {IMPORTANCE: 4*. A good summary on the research of aquatic vertebrates
+	and their navigation using the magentic field. It has some good numbers
+	for systematic variations in the earth's magnetic field as well as
+	local variations due to crustal rocks etc. Cites that both hammerhead
+	sharks (Kilmley:1993) and fin whales appear to navigate by using
+	variations in the magnetic field. Concludes that elasmobranches navigate
+	using magnetite crystals from the results of Hodson:2000. Cites other
+	examples of fish using magnetite, in this case the rainbow trout
+	which have magnetite crystal chains near the olfactory nerve.},
+  booktitle = {Sensory Processing in Aquatic Enviroments},
+  notes = {IMPORTANCE: 3*. An extensive summary on magnetoreception in aquatic
+	vertebrates, focusses mostly on magnetite-chain molecules and goes
+	into the discovery of chains of magnetite in the olfactory lamallae
+	of rainbow trout and takes a guess that similar crystals could be
+	found the the nasal cavities of rays. Again cites the work of Hodson:2000
+	as evidence against the theory of induction-based navigation in elasmobranches.},
+  url = {http://authors.library.caltech.edu/36417/}
+}
+
+@ARTICLE{,
+  author = {Bernard Waltman},
+  title = {Electrical Properties and Fine Structure of the Ampullary Canals
+	of Lorenzini},
+  journal = {Acta Physiologica Scandinavica},
+  year = {1966},
+  volume = {66},
+  pages = {1-60},
+  note = {IMPORTANCE: 3*. Good theoretical part on the electrical properties
+	of the canal by treating it as an insulated submarine cable open
+	at one end. Experimental results were taken from the hyoid group
+	of ampullae. Includes measured values for canal and mural resistances
+	and the capaciatance of the canal. Measured that the mural resistance
+	is two to three times higher than the resistances of other epithelia.},
+  owner = {souan326},
+  timestamp = {2013.03.07}
+}
+
+@ARTICLE{,
+  author = {P. W. Webb and S. Keys},
+  title = {Swimming Kinematics of Sharks},
+  journal = {Fishery Bulletin},
+  year = {1982},
+  volume = {80},
+  pages = {803-812},
+  number = {4},
+  note = {IMPORTANCE: 3*. A kinematic analysis across six species (nurse, bull,
+	lemon, leopard, bonnethead, blacktip sharks) of which the nurse,
+	bull and lemon were in the range 2-2.5m in length. Found that for
+	the blacktip (the only shark that could be induced to swim across
+	a large enough range of speeds) that tail-beat frequency increased
+	linearly with speed. Introduces multiple classification types for
+	swimming styles across sharks and teleost fishes ranging from the
+	more fusiform sharks to the more carangiform. Defines anguilliform
+	swimming mode as the body containing more than one half wavelength
+	within the body (often one or more complete waves). Then carangiform
+	swimming is where the body contains less than one half wavelength
+	and lateral displacements increase rapidly over the posterior third
+	or half of the body. Then sub-carangiform swimming was defined to
+	be fish with wave patterns of the anguilliform mode and amplitude
+	changes similar to the carangiform mode. The sharks in the study
+	were all found to be sub-carangiform swimmers.},
+  owner = {souan326},
+  timestamp = {2013.03.07},
+  url = {http://fishbull.noaa.gov/80-4/webb.pdf}
+}
+
+@ARTICLE{Wilkens:2005,
+  author = {Lon A. Wilkens and Michael H. Hoffman},
+  title = {Behavior of Animals with Passive, Low-Frequency Electrosensory Systems},
+  journal = {Springer Handbook of Auditory Research},
+  year = {2005},
+  volume = {21},
+  pages = {229-263},
+  note = {IMPORTANCE: 3*. Looks at electrosensory behaviour across several
+	species and families e.g. elasmobranches, catfish, platapus', lampreys
+	and chimera. Does mention induction-based navigation but doesn't
+	go into detail and adds that Paulin's theory is untested. Also mentions
+	an avoidance behaviour for sharks for fields in the order of 1-10uVcm-1.
+	Suggests anecdotal evidence that electric fields of greater intensity
+	or dimensions may be interpreted as belonging to larger animals.
+	One interesting thing came up in the article was that paddlefish
+	have in the order of 75, 000 ampullae of Lorenzini whereas there
+	were only counted 2824 in the scalloped hammerhead, probably the
+	shark with the greatest numberer of ampullae.},
+  url = {http://link.springer.com/chapter/10.1007%2F0-387-28275-0_9?LI=true}
+}
+
