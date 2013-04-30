@@ -1,0 +1,15 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: Lit Review.aux
+The style file: plain.bst
+Database file #1: Thesis_Bibliography.bib
+Warning--I didn't find a database entry for "Montgomery:1984"
+Warning--I didn't find a database entry for "Montgomery:1994"
+Name 1 in "Ad. J. Kalmijn," has a comma at the end for entry Kalmijn:1982
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Thorsten Ritz, Peter Thalau, John B. Phillips, Roswitha Wiltschko and Wolfgang Wiltschko" for entry Ritz:2004
+while executing---line 1049 of file plain.bst
+Name 1 in "Ad. J. Kalmijn," has a comma at the end for entry Kalmijn:1982
+while executing---line 1090 of file plain.bst
+Warning--can't use both author and editor fields in Murray:1974
+Too many commas in name 1 of "Thorsten Ritz, Peter Thalau, John B. Phillips, Roswitha Wiltschko and Wolfgang Wiltschko" for entry Ritz:2004
+while executing---line 1090 of file plain.bst
+(There were 4 error messages)
