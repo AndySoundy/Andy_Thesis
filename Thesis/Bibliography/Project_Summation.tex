@@ -1,0 +1,65 @@
+\documentclass[12pt]{article}
+
+\usepackage[english]{babel}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{indentfirst}
+
+\title{Project Aims and Methods}
+\author{Andy Soundy}
+
+\begin{document}
+\maketitle
+
+\section{It has long been known that sharks are pointy and bitey, what is less well known is ...}
+\subsection{Introduction}
+All elasmobranches (sharks, skates and rays) have a sense that allows them to pick up minute changes in the electric field around them. This sense is so well developed that behavioural responses have been recorded for fields as small as 1nVcm\textsuperscript{-1}\cite{Kajiura:2002}. It has been proposed that as sharks swim through the earth's magnetic field they can detect the induced voltage of their swimming V $\propto -vBsin(\theta )$ (where $B$ is the strength of the earth's magnetic field, $v$ is the animal's velocity and $\theta$ is the angle between the animal's velocity and $B$).
+
+
+\section{Comparison with the vestibular frequency}
+As a shark swims forward it's head 'wags' from side to side with some frequency. If we imagine straight-line swimming in the open ocean we can approximate this as a constant frequency ($\omega$) which we shall call the vestibular frequency. Most of the shark's electroreceptors (or ampullae of Lorenzini to give their correct name) are located in and arround the shark's head. Therefore as the shark wags its head at the vestibular frequency ($\omega$) the voltage that the ampullae measure will change as the angle between the sharks head velocity and the earth's magnetic field changes. It turns out that for a north or south heading the receptor voltage varies with frequency of $\omega$ and for an east or west heading the receptor voltage varies with frequency $2\omega$. All over headings consist of some level of both frequencies. Therefore by taking the voltage signals from the animals ampullae of Lorenzini and picking out only the elements of the signal with frequency of $\omega$ or $2\omega$ then the signal to noise ratio (SNR) of the process could be greatly improved.
+
+
+\section{Neuron Model}
+An ampulla of Lorenzini is, essentially, a canal filled with an electrically conductive jelly that is open to the ocean at one end and terminates at the electroreceptor itself. Each ampulla of Lorenzini in the shark do no send a continuous voltage signal directly to the brain. Instead the information about the voltage signal is sent via a group of primary afferent neurons around each ampulla, typically around 5-12 neurons per ampulla\cite{Murray:1974}. The neurons send the information to the brain as a series of voltage spikes along the afferent nerve. Each spike is around 10ms long and each neuron emits a resting firing rate of around 34Hz\cite{Camperi:2007}. Then according to the voltage detected across the ampulla the firing rate changes. While the change is nonlinear, in general increasing the firing rate for a negative voltage and decreasing the firing rate for a positive voltage. Camperi et al (2007) fitted a sigmoid function, firing rate(Hz)$ = 1.6 + 62/(1 + 0.9\times $exp$($Vsignal$\times 10^6/11.5))$ to experimental data and this gain function was used in the implementation of the work in this project.
+
+
+\section{Implementation}
+\subsection{Starting assumptions}
+A simplified computational model was made based on the following simple assumptions. Firstly that the magnetic field is purely horizontal, while this is not a requirement it does make examples easier to demonstrate and compute and once done expanding this to a magnetic field with horizontal and vertical components is mathematically a small step. We then assumed uniform swimming motion for the period of time over which the model operated (seconds up to possibly minutes). It was also assumed that all the ampulla were identical and exposed to an identical receptor voltages. This is not strictly true as the canal lengths vary significantly in length, orientation and placement around the shark. However given the extra complexity required for setup and computation the identical ampullae model was used. 
+
+\subsection{Calculating the action potential}
+The train of spikes sent out from an afferent neuron is known as an action potential. The firing rate of the neuron is a function of the voltage across the electroreceptor, here the sigmoid from Camperi et al. (2007) where firing rate(Hz)$ = 1.6 + 62/(1 + 0.9\times $exp$($Vsignal$\times 10^6/11.5))$ was used. Once a neuron has fired a spike it remains unable to fire again for some period of time, known as the relaxation time.
+
+ Initially code was set up to send a voltage signal to the ampulla and from that the firing rate was calculated. The probability that the neuron would fire at some time t was said to be equal to the firing rate multiplied by dt, where dt is the difference in time between one time step and the next. Once the probability that the neuron would fire at the time t was found (P(t)) a random number (R) between 0 and 1 was generated. If R $>$ P(t) then no spike was sent out but if R$\le$ P(t) then a spike was sent out and after that the neuron disabled for the relaxation time.
+
+Because of the way that each neuron encodes the voltage signal as an action potential the information from a single neuron is essentially useless and closely resembles just a random series of spikes. However with 10,000 - 30,000 neurons per shark\cite{Murray:1974}\cite{Montgomery:1999} cross referencing the signals can allow for even very small signals to be found from the combined action potentials.
+
+
+\subsection{Decoding the action potentials}
+Once the voltage signal at all the ampullae had been encoded as a series of N action potentials the next step is to create a model that can resolve these action potentials back into some picture of the voltage that the shark is exposed to. Looking over all the action potentials at some time t there will be some that are spiking at t (Sp), some that are in their relaxation time (Re) and some that are active but not spiking (Ac). For a large N the probability of a single neuron firing at time t (P(t)) can be approximated by P(t) $\approx$ Sp/(Ac). The neurons undergoing relaxation at t (Re) are ignored in this calculation as they are unable to fire at t.
+
+Now that an approximation of P(t) has been found the firing rate is easily found as well by the equation P(t)/dt = firing rate. From there our sigmoid gain function can be rearranged to give us the voltage signal for a given firing rate, i.e. Vsignal$ =  (11.5/10^6)\times $log$[(1/0.9)\times (1 - (62./(firing_rate - 1.6)))]$.
+
+\subsection{Comparing against the vestibular frequency}
+Once the N individual action potentials have been resolved into one approximate voltage signal (actSignal) we want to try and improve the signal to noise ratio (SNR) by only using the components of actSignal that are at the vestibular frequency ($\omega$) or twice that ($2\omega$). By taking the Fourier transform of actSignal we can see the frequency components of actSignal. The Fourier transform of the vestibular signal is just a sharp peak at frequency $\omega$. By taking that peak and placing a copy of the same peak at frequency $2\omega$ and then normalizing the result we have a signal that is just two peaks of unit height located at $\omega$ and $2\omega$. 
+
+If we then multiply the Fourier transform of actSignal by our newly made signal with peaks at $\omega$ and $2\omega$ it picks out just the parts of the actSignal with frequencies of $\omega$ and $2\omega$. Transforming this back into the time domain gives us the parts of actSignal that contain the navigational signal with most 
+
+
+
+
+
+
+
+
+
+
+
+
+
+%Bibliography
+\bibliography{Thesis_Bibliography}{}
+\bibliographystyle{plain}
+\end{document}
+\end{document}
